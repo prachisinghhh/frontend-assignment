@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+}
+
+section{
+    margin: 0;
+    width: 100%;
+}
+#title, #imgsec{
+    background-color:#161615;
+    background-image: url('image/Background.png');
+    width: 100%;
+}
+
+.row{
+    height: 656px;
+    width: 100%;
+}
+
+#abovefoot{
+    background-color:#161615;
+    background-image: url('image/secondbg.png');
+    /* width: 100%; */
+}
+
+/* Large screens (lg) */
+@media (min-width: 992px) {
+  #first-row {
+    display: flex;
+  }
+  #first-col {
+    width: 50%;
+  }
+  #second-col {
+    width: 50%;
+  }
+  #second-row {
+    display: flex;
+  }
+  #secondcolumn {
+    width: 50%;
+  }
+  #third-col {
+    width: 50%;
+  }
+}
+
+/* Medium screens (md) */
+@media (max-width: 991px) {
+  #first-row {
+    display: block;
+  }
+  #second-row {
+    display: block;
+  }
+  #first-col,
+  #second-col,
+  #secondcolumn,
+  #third-col {
+    width: 100%;
+  }
+}
+
+/* Small screens (sm) */
+@media (max-width: 767px) {
+  /* Add your styles for small screens here */
+}
+
+
