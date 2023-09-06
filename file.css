@@ -10,7 +10,7 @@ section{
 }
 #title, #imgsec{
     background-color:#161615;
-    background-image: url('image/Background.png');
+    background-image: url('image/background.png');
     width: 100%;
 }
 
@@ -69,3 +69,17 @@ section{
 }
 
 
+.arrow {
+  display: flex;
+  margin-left: 1000px;
+  width: 500px;
+  margin-top: -5%;
+  gap: 20%;
+  flex-direction: row;
+  padding-left: 200px;
+}
+
+.arrow #arrowcode {
+  text-decoration-line: none;
+  color: black;
+}

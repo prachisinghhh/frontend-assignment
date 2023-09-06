@@ -97,8 +97,8 @@
             <a class="nav-link" href="#" style="padding-left: 85%;"><strong>WISHLIST (0) BAG (0)</strong></a>
           </div>
           <!-- Wishlist and Bag -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: #FFFFFF; border-color: #FFFFFF;">
+            <span class="navbar-toggler-icon" style="color: #FFFFFF; "></span>
           </button>
           <!-- <div class="collapse navbar-collapse" id="navbarText">
             <span><a class="nav-link" href="#" style="float: right;"><b>WISHLIST (0) BAG (0)</b></a></span>
@@ -149,18 +149,29 @@
           <img class="image" src="./image/boyimage.png" alt="Oregon jacket" style="position: absolute; margin-left: auto; top: 0; right: 0; left: 0; z-index: 2; padding-right: 130px;">
           <img src="./image/star.png" style="position: absolute; top: 0; right: 100px; background-color: FFFFFF; z-index: 1;">
         </div>
+        <img src="image/line.png" style="position: absolute; width: 976px; border: 1px; color: #FFFFFF; top: 544px; left: 0; z-index: 4;">
+        <img src="image/starlight.png" style="position: absolute; width: 64px; height: 89px; left: 944px; top: 500px; z-index: 4;">
+        <img src="image/frameseemore.png" style="position: absolute; width: 103px; height: 24px; left: 115px; top: 580px;">
       </div>
       <div style="position: absolute; top: 0px; right: 0px; width: 1050px; height: 354.30108642578125px; opacity: 50%; background-color: #F07E15; margin-top: 215px; z-index: 3;">
       <p style="margin-left: 870px; margin-top: 250px; margin-bottom: 0px; color: black;">OREGON JACKET</p>
       <p style="margin-left: 870px; margin-top: 0px; color: black;">$124</p>
       </div>
+      
     </section>
     <!-- features -->
+
+
     <div id="images" class="container-fluid row d-flex" style="position: relative; width: 100%; right: 0; margin: 0;  padding: 0; display: flex; overflow: hidden; height: auto">
         <h2 class="section-title" style="margin-top: 30px; margin-bottom: 1px; font-family: 'Syne', sans-serif; font-weight: 600; padding-left: 105px; font-size: 80px; ">New products </h2>
         <!-- <img src="image/Arrow 2.png" width="1px" height="1px" style="display: inline;"> -->
         <!-- <img src="image/Arrow 1.png" alt="" width="5px" height="1px" style="display: inline;"> -->
-        <hr class="section-divider">
+        <!-- <hr class="section-divider"> -->
+        <img id="img1" src="image/horizontalsmallline.png" alt="smhor" style="padding-left: 100px; width: 700px;" />
+        <div class="arrow">
+          <a id="arrowcode" href="#girl1"><big><big><big><big><big><big>&#8592;</big></big></big></big></big></big></a>
+          <a id="arrowcode" href="#lastgirl"><big><big><big><big><big><big>&#8594;</big></big></big></big></big></big></a>
+        </div>
         <div class="col-lg-6 col-md-12 col-sm-12" style="z-index: 1; width: 200px; flex-wrap: nowrap;">
           <div class="box product-categories row" style="height: 40px; width: 1100px; padding-left: 100px;">
                 <div class="col-lg-12 col-md-2 col-sm-2" style="padding-right: 0; width: 100px; padding-top: 11px;"><p class="product-category col-lg-12 col-md-3 col-sm-3" style="margin: 0; text-align: left; z-index: 4; width: auto; height: 30px; font-family: 'Work Sans', sans-serif; font-weight: 400; font-size: 18px;">Apparel</p></div>
@@ -220,20 +231,20 @@
               <form id="contactForm" data-sb-form-api-token="API_TOKEN" action="/contact" method="post">
                 <!-- Form content goes here -->
                 <div class="form-floating" style="border-style: none; border-bottom: 1px solid #626262; border-top-width: 0px;">
-                  <input class="form-control" id="name" type="text" placeholder="Enter your name..." name="name" data-sb-validations="required"  style="background: none; border: none none 1px none; border-style: none; border: 0px;"/>
+                  <input class="form-control" id="name" type="text" placeholder="Enter your name..." name="name" data-sb-validations="required"  style="background: none; border: none none 1px none; border-style: none; border: 0px; color: #FFFFFF;"/>
                   <label for="name" style="color: #626262;">Name</label>
                   <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                  </div>
-                  <div class="form-floating" style="border-style: none; border-bottom: 1px solid #626262; border-top-width: 0px;">
-                      <input class="form-control" id="email" type="email" placeholder="Enter your email..." name="mail" data-sb-validations="required,email" style="background: none; border: none none 1px none; border-style: none; border: 0px;" />
-                      <label for="email" style="color: #626262;">Email address</label>
-                      <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                      <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                  </div>
-                  <div class="form-floating" style="border-style: none; border-bottom: 1px solid #626262; border-top-width: 0px;">
-                      <input class="form-control" id="message" type="message" placeholder="Enter your email..." name="message" data-sb-validations="required,email" style="background: none; border: none none 1px none; border-style: none; border: 0px;" />
-                      <label for="message" style="color: #626262;">Message</label>
-                      <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                </div>
+                <div class="form-floating" style="border-style: none; border-bottom: 1px solid #626262; border-top-width: 0px;">
+                  <input class="form-control" id="email" type="email" placeholder="Enter your email..." name="mail" data-sb-validations="required,email" style="background: none; border: none none 1px none; border-style: none; border: 0px; color: #FFFFFF;" />
+                  <label for="email" style="color: #626262;">Email address</label>
+                  <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                  <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                </div>
+                <div class="form-floating" style="border-style: none; border-bottom: 1px solid #626262; border-top-width: 0px;">
+                  <input class="form-control" id="message" type="message" placeholder="Enter your email..." name="message" data-sb-validations="required,email" style="background: none; border: none none 1px none; border-style: none; border: 0px; color: #FFFFFF;" />
+                  <label for="message" style="color: #626262;">Message</label>
+                  <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                 </div>
               </form>
             </div>
